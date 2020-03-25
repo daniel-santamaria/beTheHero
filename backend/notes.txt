@@ -1,0 +1,25 @@
+MÉTODOS HTTP
+
+- GET: utilizado para uscar informação do backend (listagem, dado de usuário);
+- POST: criar informação no backend (por exemplo, um novo usuário);
+- PUT: alterar alguma informação do backend;
+- DELETE: excluir alguma informação no backend;
+
+-----------------------------------------------------
+
+TIPOS DE PARÂMETROS
+
+- Query: parâmetros nomeados enviados dentro da URL (rota), após o símbolo de interrogação (nome e valor, utilizado para paginação, filtros EventSource.)
+- Route: utilizados para identificar recursos;
+- Request Body: forma como os parâmetros são acessados, corpo da requisição, utilizado para criar ou alterar recursos;
+
+-----------------------------------------------------
+
+BANCOS DE DADOS
+
+- SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server;
+- NoSQL: MongoDB, CouchDB
+
+Para utilizar o banco de dados SQL:
+- Driver: SELECT * FROM users
+- Query Builder: table('users').select('*').where();
